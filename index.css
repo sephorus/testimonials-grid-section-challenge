@@ -1,0 +1,124 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --gray-blue: hsl(217, 19%, 35%);
+    --gray-black: hsl(219, 29%, 14%);
+    --violet: hsl(263, 55%, 52%);
+    --background: #F8F8FF;
+    --light-gray: hsl(0, 0%, 81%);
+    --light-gray-blue: hsl(210, 46%, 95%);
+}
+
+*, 
+*::before, 
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--background);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 25px;
+}
+
+.testimonial-item {
+    background-color: var(--white);
+}
+
+.testimonial-item:nth-child(1) {
+    background-color: var(--violet);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-item:nth-child(2) {
+    background-color: var(--gray-blue);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-item:nth-child(4) {
+    background-color: var(--gray-black);
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-item {
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonial-person {
+    display: flex;
+}
+
+.testimonial-highlight {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.testimonial-summary {
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.testimonial-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.testimonial-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimonial-title {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial-grid {
+        width: 80%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .testimonial-item:nth-child(1) {
+        grid-column: 1 / 3;
+    }
+
+    .testimonial-item:nth-child(4) {
+        grid-column: 2 / 4;
+    }
+    
+    .testimonial-item:nth-child(5) {
+        grid-row: 1 / 3;
+        grid-column: 4 / 5;
+    }
+
+}
