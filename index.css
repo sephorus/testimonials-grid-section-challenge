@@ -66,6 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    box-shadow: 3px 5px 20px rgb(0 0 0 / 0.2);
 }
 
 .testimonial-person {
@@ -74,7 +75,7 @@ body {
 
 .testimonial-highlight {
     font-size: 25px;
-    line-height: 1.5;
+    line-height: 1.25;
     font-weight: bold;
 }
 
@@ -88,7 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .testimonial-name {
@@ -105,6 +106,7 @@ body {
     border-radius: 50%;
     height: 42px;
     width: 42px;
+    border: 2px solid white;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -118,7 +120,8 @@ body {
     }
 
     .testimonial-grid {
-        width: 80%;
+        width: 100%;
+        max-width: 1440px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
