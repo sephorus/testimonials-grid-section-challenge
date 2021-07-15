@@ -33,8 +33,21 @@ body {
 }
 
 .testimonial-item:nth-child(1) {
+    position: relative;
+    background-image: url("../testimonials-grid-section-main/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-size: 130px;
     background-color: var(--violet);
     color: hsl(0, 0%, 100%);
+}
+
+.quotation-svg {
+    position: absolute;
+    width: auto;
+    height: 125px;
+    right: 100px;
+    top: 0;
 }
 
 .testimonial-item:nth-child(2) {
@@ -60,7 +73,8 @@ body {
 }
 
 .testimonial-highlight {
-    font-size: 22px;
+    font-size: 25px;
+    line-height: 1.5;
     font-weight: bold;
 }
 
@@ -110,6 +124,7 @@ body {
 
     .testimonial-item:nth-child(1) {
         grid-column: 1 / 3;
+        background-position-x: 80%;
     }
 
     .testimonial-item:nth-child(4) {
