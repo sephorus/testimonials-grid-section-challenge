@@ -76,14 +76,14 @@ body {
 }
 
 .testimonial-highlight {
-  font-size: 25px;
+  font-size: 22px;
   line-height: 1.25;
   font-weight: bold;
 }
 
 .testimonial-summary {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -122,7 +122,7 @@ body {
 
   .testimonial-grid {
     padding: 0;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
     max-width: 1250px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
