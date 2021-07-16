@@ -30,6 +30,8 @@ body {
 
 .testimonial-item {
   background-color: var(--white);
+  color: #1b1b1b;
+  opacity: 0.9;
 }
 
 .testimonial-item:nth-child(1) {
