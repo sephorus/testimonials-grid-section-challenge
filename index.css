@@ -31,7 +31,6 @@ body {
 .testimonial-item {
   background-color: var(--white);
   color: #1b1b1b;
-  opacity: 0.9;
 }
 
 .testimonial-item:nth-child(1) {
@@ -84,7 +83,7 @@ body {
 .testimonial-summary {
   opacity: 0.7;
   font-size: 13px;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .testimonial-info {
