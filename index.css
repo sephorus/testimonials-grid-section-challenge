@@ -39,7 +39,7 @@ body {
   background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position-x: 180px;
-  background-size: 130px;
+  background-size: 120px;
   background-color: var(--violet);
   color: hsl(0, 0%, 100%);
 }
@@ -76,15 +76,15 @@ body {
 }
 
 .testimonial-highlight {
-  font-size: 22px;
-  line-height: 1.25;
+  font-size: 20px;
+  line-height: 1.15;
   font-weight: bold;
 }
 
 .testimonial-summary {
   opacity: 0.7;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .testimonial-info {
